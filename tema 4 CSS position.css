@@ -1,0 +1,68 @@
+.container-negru {
+  background: black;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+
+.patrat {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.albastru1 {
+  background: blue;
+  top: 50px;
+  left: 70px;
+}
+
+.dreptunghi-roz-vertical {
+  background: pink;
+  position: absolute;
+  height: 250px;
+  width: 50px;
+  top: 100px;
+  left: 180px;
+}
+
+.dreptunghi-mov {
+  background: purple;
+  height: 100px;
+  width: 50px;
+  margin-top: 50px;
+}
+
+.dreptunghi-roz-orizontal {
+  background: pink;
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  bottom: 20px;
+  right: 40px;
+}
+
+.dreptunghi-alb {
+  background: white;
+  height: 50px;
+  width: 100px;
+  margin-left: 100px;
+}
+
+.rosu {
+  background: red;
+  right: 140px;
+  top: 120px;
+}
+
+.albastru2 {
+  background: blue;
+  right: 80px;
+  top: 280px;
+}
+
+.verde {
+  background: green;
+  left: 100px;
+  bottom: 90px;
+}
