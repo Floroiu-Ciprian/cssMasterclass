@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+:root {
+  --color-card-border: #e5e5e5;
+  --color-gray-name-details: #969696;
+  --color-css-blue: #006af7;
+  --color-card-background: #ffffff; }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.container {
+  width: 230px;
+  height: 278px;
+  border: 1px solid var(--color-card-border);
+  background: var(--color-card-background);
+  border-radius: 8px; }
+  .container .header {
+    display: flex; }
+    .container .header img {
+      width: 230px;
+      height: 124px;
+      border-radius: 8px 8px 0px 0px; }
+  .container .about {
+    display: flex;
+    flex-direction: column;
+    padding: 12px; }
+    .container .about .name {
+      font-weight: 600;
+      color: var(--color-gray-name-details);
+      font-size: 12px;
+      line-height: 15px; }
+    .container .about .title {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px; }
+  .container .details {
+    display: flex;
+    justify-content: space-around; }
+    .container .details .rating {
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--color-gray-name-details);
+      margin-left: -5px; }
+    .container .details .ore {
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--color-gray-name-details); }
+    .container .details .lectii {
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--color-gray-name-details); }
+    .container .details span {
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--color-css-blue);
+      font-weight: 600; }
+  .container .line {
+    height: 1px;
+    width: 230px;
+    background: var(--color-card-border);
+    margin-top: 15px; }
+  .container .action {
+    display: flex; }
+    .container .action .begin {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--color-css-blue);
+      padding: 12px; }
+    .container .action .price {
+      font-size: 20px;
+      line-height: 20px;
+      padding: 11px;
+      margin-left: 20px; }
+
+/*# sourceMappingURL=tema%2003%20figma.css.map */
