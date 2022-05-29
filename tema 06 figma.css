@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+:root {
+  --color-rosu-btn-normal: #ff0000;
+  --color-mov-deschis-btn-accept: #aca2ff;
+  --color-mov-deschis-borderbtn-accept: #aca1ff;
+  --color-mov-normal-btn-accept: #786dcf;
+  --color-mov-inchis-btn-accept: #4c3fb1;
+  --color-alb-borderbtn-decline: #000000;
+  --color-alb-btn-decline: #ffffff;
+  --color-container-gri: #e5e5e5;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 500px;
+}
+
+.normal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  padding: 5px 15px;
+  width: 76px;
+  height: 22px;
+  background: var(--color-rosu-btn-normal);
+  color: var(--color-alb-btn-decline);
+}
+
+.align1 {
+  margin-bottom: 16px;
+}
+.align2 {
+  margin-top: 8px;
+}
+
+.accept {
+  padding: 9px 25px;
+  border: 1px solid var(--color-mov-deschis-borderbtn-accept);
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+}
+
+.one {
+  background: var(--color-mov-deschis-btn-accept);
+  color: var(--color-mov-inchis-btn-accept);
+}
+.two {
+  background: var(--color-mov-normal-btn-accept);
+  color: var(--color-alb-btn-decline);
+}
+.three {
+  background: var(--color-mov-inchis-btn-accept);
+  color: var(--color-alb-btn-decline);
+}
+
+.decline {
+  padding: 9px 25px;
+  border: 1px solid var(--color-alb-borderbtn-decline);
+  text-transform: uppercase;
+  border-radius: 4px;
+  background: var(--color-alb-btn-decline);
+  margin-bottom: 8px;
+}
+
+.container-4 {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  border: 1px solid var(--color-container-gri);
+  width: 720px;
+  height: 96px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.picture {
+  margin: 20px 16px 24px 16px;
+}
+
+.picture img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.identification {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #181818;
+  margin-bottom: 3px;
+}
+
+.job {
+  color: #969696;
+  font-size: 10px;
+  line-height: 150%;
+  margin-bottom: 3px;
+}
+
+.experience {
+  color: #4c3fb1;
+  font-size: 10px;
+  line-height: 150%;
+  margin-bottom: 3px;
+}
+
+.buttons {
+  position: absolute;
+  display: flex;
+  margin-left: 460px;
+  margin-top: 27px;
+}
+
+.buttons .accept {
+  background: var(--color-mov-deschis-btn-accept);
+  color: var(--color-mov-inchis-btn-accept);
+}
