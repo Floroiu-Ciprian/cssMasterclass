@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Roboto:ital,wght@0,400;1,500&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.btn {
+  width: 65px;
+  height: 65px;
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 5px;
+  letter-spacing: 0.15em;
+  font-size: 35px;
+  line-height: 41px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 18px;
+  margin-bottom: 13px;
+  cursor: pointer; }
+
+.container {
+  position: relative;
+  background: #28007d;
+  width: 400px;
+  height: 680px;
+  border-radius: 10px; }
+  .container .afisaj {
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 82px;
+    color: #ffffff;
+    top: 74px;
+    left: 32px;
+    position: absolute; }
+  .container .calcul {
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.15em;
+    color: #c0c0c0;
+    position: absolute;
+    top: 169px;
+    left: 38px; }
+  .container .litere-semne-orizontale-sus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 262px;
+    margin-left: 15px; }
+    .container .litere-semne-orizontale-sus .slash {
+      background: rgba(255, 255, 255, 0.6); }
+  .container .litere-semne-verticale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 265px; }
+    .container .litere-semne-verticale .ori,
+    .container .litere-semne-verticale .minus,
+    .container .litere-semne-verticale .plus {
+      background: rgba(255, 255, 255, 0.6); }
+    .container .litere-semne-verticale .egal {
+      background: #ffd600;
+      border-radius: 55px; }
+  .container .cifre789 {
+    display: flex;
+    margin-left: 42px;
+    margin-top: -313px; }
+  .container .cifre456 {
+    display: flex;
+    margin-left: 42px; }
+  .container .cifre123 {
+    display: flex;
+    margin-left: 42px; }
+
+.punct {
+  background: rgba(255, 255, 255, 0.23);
+  position: absolute;
+  top: 574px;
+  left: 208px;
+  margin-right: 18px; }
+
+.zero {
+  background: rgba(255, 255, 255, 0.23);
+  position: absolute;
+  top: 574px;
+  left: 42px;
+  width: 148px;
+  margin-right: 18px; }
+
+/*# sourceMappingURL=tema%2012%20figma.css.map */
