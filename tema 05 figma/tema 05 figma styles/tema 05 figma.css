@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100vw;
+  height: 100vh; }
+
+span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 12px 0px 12px 40px;
+  color: #000000; }
+
+input {
+  margin: 12px 40px 12px 40px;
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  width: 320px;
+  padding: 8px 10px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #838383; }
+
+.container {
+  border: 1px solid #d1d1d1;
+  border-radius: 4px; }
+  .container .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 28px; }
+  .container .card-number {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start; }
+  .container .date {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start; }
+    .container .date input {
+      width: 148px; }
+  .container .cvv {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start; }
+    .container .cvv input {
+      width: 148px;
+      margin-bottom: 40px; }
+  .container .date-cvv {
+    display: flex; }
+
+/*# sourceMappingURL=tema%2005%20figma.css.map */
