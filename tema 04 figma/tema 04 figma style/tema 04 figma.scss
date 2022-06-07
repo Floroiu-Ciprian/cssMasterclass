@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Khula:wght@400;600;700&family=Roboto:ital,wght@0,400;1,500&display=swap");
+
+body {
+  font-family: "Khula", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #ffffff;
+
+  .schedule {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e5e5e5;
+
+    span {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 32px;
+      color: #1c1f37;
+      margin: 16px 20px;
+    }
+
+    .detail {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #017efa;
+      margin: 20px;
+    }
+  }
+  .box {
+    display: flex;
+
+    .date {
+      border: 1px solid rgba(229, 229, 229, 0.5);
+      border-radius: 4px;
+      width: 40px;
+      height: 46px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 12px 8px 0px 20px;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #222;
+
+        span {
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 14px;
+          text-align: center;
+          color: #1c1f37;
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .details {
+      display: flex;
+      flex-direction: column;
+      margin-top: 12px;
+      margin-right: 26px;
+
+      span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #1c1f37;
+      }
+
+      .info {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+        color: #1c1f37;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .bar-chart {
+    display: flex;
+    align-items: center;
+    margin: 8px 12px 12px 20px;
+
+    .bara {
+      width: 100px;
+      height: 4px;
+      background: rgba(229, 229, 229, 0.7);
+      border-radius: 44px;
+      margin-right: 12px;
+
+      .percent {
+        background: #51cbff;
+        border-radius: 44px;
+        height: 4px;
+      }
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 19px;
+      color: #1c1f37;
+      opacity: 0.5;
+    }
+  }
+  .distantier {
+    display: flex;
+    margin: 0 auto;
+    content: "";
+    opacity: 0.5;
+    border: 1px solid #e5e5e5;
+    width: 340px;
+    height: 0px;
+  }
+}
