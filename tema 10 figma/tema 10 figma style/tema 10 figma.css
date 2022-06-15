@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Khula:wght@400;600;700&family=Lora:wght@400;700&family=Mulish:wght@300;400;600;700&family=Roboto:ital,wght@0,400;1,500&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(201, 191, 191, 0.774); }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .main .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 55px; }
+    .main .title:after {
+      content: "";
+      display: flex;
+      margin: 0 auto;
+      width: 56px;
+      height: 2px;
+      background: #000000;
+      border-radius: 5px;
+      margin-top: 20px; }
+  .main .container {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .main .container .box {
+      width: 350px;
+      height: 458px;
+      display: flex;
+      flex-direction: column;
+      background: #ffffff;
+      box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+      border-radius: 20px;
+      margin-right: 34px;
+      margin-top: -15px; }
+      .main .container .box img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px; }
+      .main .container .box span {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 32px;
+        color: #000000;
+        margin: 14px 65px 10px 33px; }
+      .main .container .box p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #7d7987;
+        margin: 5px 51px 65px 33px; }
+      .main .container .box .more {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 28px;
+        color: #4089ed;
+        margin-top: -45px;
+        margin-left: 33px; }
+  .main .button {
+    width: 200px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458ff6;
+    background: #ffffff;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px; }
+
+@media screen and (max-width: 1100px) {
+  body {
+    height: auto; }
+
+  .title {
+    max-width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px; }
+    .container .box {
+      margin-bottom: 40px;
+      margin-right: 0px; }
+      .container .box:last-child {
+        margin-bottom: 0px; } }
+
+/*# sourceMappingURL=tema%2010%20figma.css.map */
